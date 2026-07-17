@@ -1,5 +1,7 @@
 # Forecasting Nominal Broad Dollar Index
 
+This project is made for the final submission for UC Santa Barbara's PSTAT 174: Time Series Analysis taught by Dr. Raya Feldman.
+
 Time series forecast of the Nominal Broad Dollar Index (NBDI) using ARIMA, built in R.
 
 ## Data
