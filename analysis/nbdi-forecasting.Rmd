@@ -28,7 +28,7 @@ library(forecast)
 
 ```{r, warning=FALSE, message=FALSE}
 # Reading in raw data from Federal Reserve
-data_raw <- read_csv("FRB_H10.csv")
+data_raw <- read_csv("../data/FRB_H10.csv")
 
 # Extracting Nominal Broad Dollar Index from data
 nbdi_all <- as.numeric(unlist(data_raw[6:(nrow(data_raw)-4), 2]))
